@@ -14,5 +14,21 @@
     "stylelint-config"
   ],
   "author": "Karl Horky",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "postcss-styled-syntax": "0.4.0",
+    "stylelint-config-css-modules": "4.2.0",
+    "stylelint-config-recommended": "11.0.0",
+    "stylelint-config-recommended-scss": "10.0.0"
+  },
+  "devDependencies": {
+    "@types/prettier": "2.7.2",
+    "eslint": "8.37.0",
+    "eslint-config-upleveled": "4.0.12",
+    "stylelint": "15.4.0",
+    "typescript": "5.0.3"
+  },
+  "peerDependencies": {
+    "stylelint": "^15.4.0"
+  }
 }
