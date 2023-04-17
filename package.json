@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-upleveled",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "UpLeveled Stylelint defaults for styling in CSS, SCSS, Sass, CSS Modules and CSS-in-JS",
   "keywords": [
     "config",
