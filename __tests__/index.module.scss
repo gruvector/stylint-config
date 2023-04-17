@@ -1,0 +1,18 @@
+lol {
+}
+
+.box {
+  backgound-color: red;
+  --custom-property: pink;
+  --custom-property: orange;
+}
+
+@-webkit-keyframes {
+  0% {
+    top: 0;
+  }
+}
+
+a > b + c ~ d e {
+  color: pink;
+}
