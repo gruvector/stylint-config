@@ -6,13 +6,13 @@ dependencies:
     version: 0.4.0(postcss@8.4.23)(typescript@5.0.4)
   stylelint-config-css-modules:
     specifier: 4.2.0
-    version: 4.2.0(stylelint@15.6.1)
+    version: 4.2.0(stylelint@15.6.2)
   stylelint-config-recommended:
     specifier: 11.0.0
-    version: 11.0.0(stylelint@15.6.1)
+    version: 11.0.0(stylelint@15.6.2)
   stylelint-config-recommended-scss:
     specifier: 10.0.0
-    version: 10.0.0(postcss@8.4.23)(stylelint@15.6.1)
+    version: 10.0.0(postcss@8.4.23)(stylelint@15.6.2)
 
 devDependencies:
   '@types/prettier':
@@ -22,11 +22,11 @@ devDependencies:
     specifier: 8.40.0
     version: 8.40.0
   eslint-config-upleveled:
-    specifier: 4.3.0
-    version: 4.3.0(@babel/eslint-parser@7.21.8)(@next/eslint-plugin-next@13.4.0)(@types/eslint@8.37.0)(@types/node@18.16.3)(@types/react-dom@18.2.3)(@types/react@18.2.6)(@typescript-eslint/eslint-plugin@5.59.5)(@typescript-eslint/parser@5.59.5)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-import@2.27.5)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-jsx-expressions@1.3.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.2)(eslint-plugin-security@1.7.1)(eslint-plugin-sonarjs@0.19.0)(eslint-plugin-testing-library@5.10.3)(eslint-plugin-unicorn@46.0.0)(eslint-plugin-upleveled@2.1.7)(eslint@8.40.0)(typescript@5.0.4)
+    specifier: 4.3.2
+    version: 4.3.2(@babel/eslint-parser@7.21.8)(@next/eslint-plugin-next@13.4.2)(@types/eslint@8.37.0)(@types/node@18.16.3)(@types/react-dom@18.2.4)(@types/react@18.2.6)(@typescript-eslint/eslint-plugin@5.59.5)(@typescript-eslint/parser@5.59.5)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-import@2.27.5)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-jsx-expressions@1.3.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.2)(eslint-plugin-security@1.7.1)(eslint-plugin-sonarjs@0.19.0)(eslint-plugin-testing-library@5.11.0)(eslint-plugin-unicorn@47.0.0)(eslint-plugin-upleveled@2.1.8)(eslint@8.40.0)(typescript@5.0.4)
   stylelint:
-    specifier: 15.6.1
-    version: 15.6.1
+    specifier: 15.6.2
+    version: 15.6.2
   stylelint-config-upleveled:
     specifier: 1.0.2
     version: 'link:'
@@ -378,8 +378,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@next/eslint-plugin-next@13.4.0:
-    resolution: {integrity: sha512-ZqQi1slguDavpuNUcl9va8+WtHHpgymIW2g+4Gs9FdI+5rjAvrUqqjfCec2hi3Cjbbp7zULFQuAiPwASKHbrxw==}
+  /@next/eslint-plugin-next@13.4.2:
+    resolution: {integrity: sha512-ZeFWgrxwckxTpYM+ANeUL9E7LOGPbZKmI94LJIjbDU69iEIgqd4WD0l2pVbOJMr/+vgoZmJ9Dx1m0WJ7WScXHA==}
     dependencies:
       glob: 7.1.7
     dev: true
@@ -457,8 +457,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom@18.2.3:
-    resolution: {integrity: sha512-hxXEXWxFJXbY0LMj/T69mznqOZJXNtQMqVxIiirVAZnnpeYiD4zt+lPsgcr/cfWg2VLsxZ1y26vigG03prYB+Q==}
+  /@types/react-dom@18.2.4:
+    resolution: {integrity: sha512-G2mHoTMTL4yoydITgOGwWdWMVd8sNgyEP85xVmMKAPUBwQWm9wBPQUmvbeF4V3WBY1P7mmL4BkjQ0SqUpf1snw==}
     dependencies:
       '@types/react': 18.2.6
     dev: true
@@ -1187,19 +1187,19 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-upleveled@4.3.0(@babel/eslint-parser@7.21.8)(@next/eslint-plugin-next@13.4.0)(@types/eslint@8.37.0)(@types/node@18.16.3)(@types/react-dom@18.2.3)(@types/react@18.2.6)(@typescript-eslint/eslint-plugin@5.59.5)(@typescript-eslint/parser@5.59.5)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-import@2.27.5)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-jsx-expressions@1.3.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.2)(eslint-plugin-security@1.7.1)(eslint-plugin-sonarjs@0.19.0)(eslint-plugin-testing-library@5.10.3)(eslint-plugin-unicorn@46.0.0)(eslint-plugin-upleveled@2.1.7)(eslint@8.40.0)(typescript@5.0.4):
-    resolution: {integrity: sha512-fK+4HIP30p/Zk7ZnohYaIe6ncufrTEMY3on2wZiQdBVYF4jYFuo3NxapcpcCWA886u8R8+xcxkncbfC48ZLltA==}
+  /eslint-config-upleveled@4.3.2(@babel/eslint-parser@7.21.8)(@next/eslint-plugin-next@13.4.2)(@types/eslint@8.37.0)(@types/node@18.16.3)(@types/react-dom@18.2.4)(@types/react@18.2.6)(@typescript-eslint/eslint-plugin@5.59.5)(@typescript-eslint/parser@5.59.5)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-import@2.27.5)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-jsx-expressions@1.3.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.2)(eslint-plugin-security@1.7.1)(eslint-plugin-sonarjs@0.19.0)(eslint-plugin-testing-library@5.11.0)(eslint-plugin-unicorn@47.0.0)(eslint-plugin-upleveled@2.1.8)(eslint@8.40.0)(typescript@5.0.4):
+    resolution: {integrity: sha512-GRVRphtjY1CRvZQZzeaaepzgOQS9T8hVP6jDo9bJ+uPiXF5AN+W23E+u3HcSkZnTOO373X1h8VYHhgoC2YIHAQ==}
     hasBin: true
     peerDependencies:
       '@babel/eslint-parser': ^7.21.8
-      '@next/eslint-plugin-next': ^13.4.0
+      '@next/eslint-plugin-next': ^13.4.1
       '@types/eslint': ^8.37.0
-      '@types/node': ^18.16.3
-      '@types/react': ^18.2.5
-      '@types/react-dom': ^18.2.3
-      '@typescript-eslint/eslint-plugin': ^5.59.2
-      '@typescript-eslint/parser': ^5.59.2
-      eslint: ^8.39.0
+      '@types/node': '>=18.16.3'
+      '@types/react': ^18.2.6
+      '@types/react-dom': ^18.2.4
+      '@typescript-eslint/eslint-plugin': ^5.59.5
+      '@typescript-eslint/parser': ^5.59.5
+      eslint: ^8.40.0
       eslint-import-resolver-typescript: ^3.5.5
       eslint-plugin-import: ^2.27.5
       eslint-plugin-jsx-a11y: ^6.7.1
@@ -1208,17 +1208,17 @@ packages:
       eslint-plugin-react-hooks: ^4.6.0
       eslint-plugin-security: ^1.7.1
       eslint-plugin-sonarjs: ^0.19.0
-      eslint-plugin-testing-library: ^5.10.3
-      eslint-plugin-unicorn: ^46.0.0
-      eslint-plugin-upleveled: ^2.1.7
+      eslint-plugin-testing-library: ^5.11.0
+      eslint-plugin-unicorn: ^47.0.0
+      eslint-plugin-upleveled: ^2.1.8
       typescript: ^5.0.4
     dependencies:
       '@babel/eslint-parser': 7.21.8(@babel/core@7.21.4)(eslint@8.40.0)
-      '@next/eslint-plugin-next': 13.4.0
+      '@next/eslint-plugin-next': 13.4.2
       '@types/eslint': 8.37.0
       '@types/node': 18.16.3
       '@types/react': 18.2.6
-      '@types/react-dom': 18.2.3
+      '@types/react-dom': 18.2.4
       '@typescript-eslint/eslint-plugin': 5.59.5(@typescript-eslint/parser@5.59.5)(eslint@8.40.0)(typescript@5.0.4)
       '@typescript-eslint/parser': 5.59.5(eslint@8.40.0)(typescript@5.0.4)
       eslint: 8.40.0
@@ -1230,9 +1230,9 @@ packages:
       eslint-plugin-react-hooks: 4.6.0(eslint@8.40.0)
       eslint-plugin-security: 1.7.1
       eslint-plugin-sonarjs: 0.19.0(eslint@8.40.0)
-      eslint-plugin-testing-library: 5.10.3(eslint@8.40.0)(typescript@5.0.4)
-      eslint-plugin-unicorn: 46.0.0(eslint@8.40.0)
-      eslint-plugin-upleveled: 2.1.7(eslint@8.40.0)
+      eslint-plugin-testing-library: 5.11.0(eslint@8.40.0)(typescript@5.0.4)
+      eslint-plugin-unicorn: 47.0.0(eslint@8.40.0)
+      eslint-plugin-upleveled: 2.1.8(eslint@8.40.0)
       typescript: 5.0.4
     dev: true
 
@@ -1426,8 +1426,8 @@ packages:
       eslint: 8.40.0
     dev: true
 
-  /eslint-plugin-testing-library@5.10.3(eslint@8.40.0)(typescript@5.0.4):
-    resolution: {integrity: sha512-0yhsKFsjHLud5PM+f2dWr9K3rqYzMy4cSHs3lcmFYMa1CdSzRvHGgXvsFarBjZ41gU8jhTdMIkg8jHLxGJqLqw==}
+  /eslint-plugin-testing-library@5.11.0(eslint@8.40.0)(typescript@5.0.4):
+    resolution: {integrity: sha512-ELY7Gefo+61OfXKlQeXNIDVVLPcvKTeiQOoMZG9TeuWa7Ln4dUNRv8JdRWBQI9Mbb427XGlVB1aa1QPZxBJM8Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0, npm: '>=6'}
     peerDependencies:
       eslint: ^7.5.0 || ^8.0.0
@@ -1439,11 +1439,11 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-unicorn@46.0.0(eslint@8.40.0):
-    resolution: {integrity: sha512-j07WkC+PFZwk8J33LYp6JMoHa1lXc1u6R45pbSAipjpfpb7KIGr17VE2D685zCxR5VL4cjrl65kTJflziQWMDA==}
-    engines: {node: '>=14.18'}
+  /eslint-plugin-unicorn@47.0.0(eslint@8.40.0):
+    resolution: {integrity: sha512-ivB3bKk7fDIeWOUmmMm9o3Ax9zbMz1Bsza/R2qm46ufw4T6VBFBaJIR1uN3pCKSmSXm8/9Nri8V+iUut1NhQGA==}
+    engines: {node: '>=16'}
     peerDependencies:
-      eslint: '>=8.28.0'
+      eslint: '>=8.38.0'
     dependencies:
       '@babel/helper-validator-identifier': 7.19.1
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.40.0)
@@ -1458,16 +1458,16 @@ packages:
       pluralize: 8.0.0
       read-pkg-up: 7.0.1
       regexp-tree: 0.1.24
-      regjsparser: 0.9.1
+      regjsparser: 0.10.0
       safe-regex: 2.1.1
       semver: 7.4.0
       strip-indent: 3.0.0
     dev: true
 
-  /eslint-plugin-upleveled@2.1.7(eslint@8.40.0):
-    resolution: {integrity: sha512-kLFzp4Ky3u+cKAB/VQsDIjoUJYRt0nW3ULoXh+0eCG45EEmudcmU/9+HaDj2etzbtQIT2CQPbCTCAbpHRdfo5g==}
+  /eslint-plugin-upleveled@2.1.8(eslint@8.40.0):
+    resolution: {integrity: sha512-qG/2gogHJ1ageUCmBi/X2WXaQ49ZyToA+wYDmxOh8k9NDq5PbTPLlsY6957UIARbtE5pA2lKP+FXeryrE/zANQ==}
     peerDependencies:
-      eslint: ^8.37.0
+      eslint: ^8.40.0
     dependencies:
       eslint: 8.40.0
     dev: true
@@ -2652,8 +2652,8 @@ packages:
       functions-have-names: 1.2.3
     dev: true
 
-  /regjsparser@0.9.1:
-    resolution: {integrity: sha512-dQUtn90WanSNl+7mQKcXAgZxvUe7Z0SqXlgzv0za4LwiUhyzBC58yQO3liFoUgu8GiJVInAhJjkj1N0EtQ5nkQ==}
+  /regjsparser@0.10.0:
+    resolution: {integrity: sha512-qx+xQGZVsy55CH0a1hiVwHmqjLryfh7wQyF5HO07XJ9f7dQMY/gPQHhlyDkIzJKC+x2fUCpCcUODUUUFrm7SHA==}
     hasBin: true
     dependencies:
       jsesc: 0.5.0
@@ -2874,17 +2874,17 @@ packages:
   /style-search@0.1.0:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
 
-  /stylelint-config-css-modules@4.2.0(stylelint@15.6.1):
+  /stylelint-config-css-modules@4.2.0(stylelint@15.6.2):
     resolution: {integrity: sha512-5x7lzPNCc42puQEAFdr7dSzQ00aIg1vCVyV+QPUiSp2oZILpAt8HTgveXaDttazxcwWPBNJrxrLpa556xUP7Bw==}
     peerDependencies:
       stylelint: ^14.5.1 || ^15.0.0
     dependencies:
-      stylelint: 15.6.1
+      stylelint: 15.6.2
     optionalDependencies:
-      stylelint-scss: 4.6.0(stylelint@15.6.1)
+      stylelint-scss: 4.6.0(stylelint@15.6.2)
     dev: false
 
-  /stylelint-config-recommended-scss@10.0.0(postcss@8.4.23)(stylelint@15.6.1):
+  /stylelint-config-recommended-scss@10.0.0(postcss@8.4.23)(stylelint@15.6.2):
     resolution: {integrity: sha512-+YvPgUHi0W5mCJCKdupBCIsWPYNbWuJcRmFtSYujwNg+41ljFknhO9bpY6C+oahv659zW7W1AT7i6DQvJYYr1A==}
     peerDependencies:
       postcss: ^8.3.3
@@ -2895,20 +2895,20 @@ packages:
     dependencies:
       postcss: 8.4.23
       postcss-scss: 4.0.6(postcss@8.4.23)
-      stylelint: 15.6.1
-      stylelint-config-recommended: 11.0.0(stylelint@15.6.1)
-      stylelint-scss: 4.6.0(stylelint@15.6.1)
+      stylelint: 15.6.2
+      stylelint-config-recommended: 11.0.0(stylelint@15.6.2)
+      stylelint-scss: 4.6.0(stylelint@15.6.2)
     dev: false
 
-  /stylelint-config-recommended@11.0.0(stylelint@15.6.1):
+  /stylelint-config-recommended@11.0.0(stylelint@15.6.2):
     resolution: {integrity: sha512-SoGIHNI748OCZn6BxFYT83ytWoYETCINVHV3LKScVAWQQauWdvmdDqJC5YXWjpBbxg2E761Tg5aUGKLFOVhEkA==}
     peerDependencies:
       stylelint: ^15.3.0
     dependencies:
-      stylelint: 15.6.1
+      stylelint: 15.6.2
     dev: false
 
-  /stylelint-scss@4.6.0(stylelint@15.6.1):
+  /stylelint-scss@4.6.0(stylelint@15.6.2):
     resolution: {integrity: sha512-M+E0BQim6G4XEkaceEhfVjP/41C9Klg5/tTPTCQVlgw/jm2tvB+OXJGaU0TDP5rnTCB62aX6w+rT+gqJW/uwjA==}
     peerDependencies:
       stylelint: ^14.5.1 || ^15.0.0
@@ -2918,11 +2918,11 @@ packages:
       postcss-resolve-nested-selector: 0.1.1
       postcss-selector-parser: 6.0.11
       postcss-value-parser: 4.2.0
-      stylelint: 15.6.1
+      stylelint: 15.6.2
     dev: false
 
-  /stylelint@15.6.1:
-    resolution: {integrity: sha512-d8icFBlVl93Elf3Z5ABQNOCe4nx69is3D/NZhDLAie1eyYnpxfeKe7pCfqzT5W4F8vxHCLSDfV8nKNJzogvV2Q==}
+  /stylelint@15.6.2:
+    resolution: {integrity: sha512-fjQWwcdUye4DU+0oIxNGwawIPC5DvG5kdObY5Sg4rc87untze3gC/5g/ikePqVjrAsBUZjwMN+pZsAYbDO6ArQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
