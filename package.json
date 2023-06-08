@@ -30,13 +30,13 @@
   },
   "devDependencies": {
     "@types/prettier": "2.7.3",
-    "eslint": "8.41.0",
+    "eslint": "8.42.0",
     "eslint-config-upleveled": "4.5.0",
-    "stylelint": "15.6.2",
+    "stylelint": "15.7.0",
     "stylelint-config-upleveled": "1.0.2",
     "typescript": "5.1.3"
   },
   "peerDependencies": {
-    "stylelint": "^15.6.2"
+    "stylelint": "^15.7.0"
   }
 }
