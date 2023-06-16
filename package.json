@@ -31,7 +31,7 @@
   "devDependencies": {
     "@types/prettier": "2.7.3",
     "eslint": "8.42.0",
-    "eslint-config-upleveled": "4.5.1",
+    "eslint-config-upleveled": "4.6.0",
     "stylelint": "15.7.0",
     "stylelint-config-upleveled": "1.0.2",
     "typescript": "5.1.3"
