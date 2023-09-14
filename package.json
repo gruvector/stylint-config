@@ -23,14 +23,14 @@
     "index.cjs"
   ],
   "dependencies": {
-    "postcss-styled-syntax": "0.4.0",
+    "postcss-styled-syntax": "0.5.0",
     "stylelint-config-css-modules": "4.3.0",
     "stylelint-config-recommended": "11.0.0",
     "stylelint-config-recommended-scss": "10.0.0"
   },
   "devDependencies": {
     "@types/prettier": "2.7.3",
-    "eslint": "8.48.0",
+    "eslint": "8.49.0",
     "eslint-config-upleveled": "4.7.2",
     "stylelint": "15.10.3",
     "stylelint-config-upleveled": "1.0.2",
