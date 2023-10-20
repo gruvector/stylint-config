@@ -12,8 +12,8 @@ dependencies:
     specifier: 4.3.0
     version: 4.3.0(stylelint@15.11.0)
   stylelint-config-recommended:
-    specifier: 11.0.0
-    version: 11.0.0(stylelint@15.11.0)
+    specifier: 13.0.0
+    version: 13.0.0(stylelint@15.11.0)
   stylelint-config-recommended-scss:
     specifier: 10.0.0
     version: 10.0.0(postcss@8.4.31)(stylelint@15.11.0)
@@ -3235,6 +3235,15 @@ packages:
       - supports-color
       - typescript
     dev: true
+
+  /stylelint-config-recommended@13.0.0(stylelint@15.11.0):
+    resolution: {integrity: sha512-EH+yRj6h3GAe/fRiyaoO2F9l9Tgg50AOFhaszyfov9v6ayXJ1IkSHwTxd7lB48FmOeSGDPLjatjO11fJpmarkQ==}
+    engines: {node: ^14.13.1 || >=16.0.0}
+    peerDependencies:
+      stylelint: ^15.10.0
+    dependencies:
+      stylelint: 15.11.0
+    dev: false
 
   /stylelint-scss@4.6.0(stylelint@15.11.0):
     resolution: {integrity: sha512-M+E0BQim6G4XEkaceEhfVjP/41C9Klg5/tTPTCQVlgw/jm2tvB+OXJGaU0TDP5rnTCB62aX6w+rT+gqJW/uwjA==}
