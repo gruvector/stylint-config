@@ -26,8 +26,8 @@ devDependencies:
     specifier: 8.54.0
     version: 8.54.0
   eslint-config-upleveled:
-    specifier: 7.3.1
-    version: 7.3.1(@babel/core@7.21.4)(@types/eslint@8.44.7)(@types/node@20.9.4)(@types/react-dom@18.2.17)(@types/react@18.2.38)(eslint@8.54.0)(globals@13.23.0)(typescript@5.3.2)
+    specifier: 7.3.2
+    version: 7.3.2(@babel/core@7.21.4)(@types/eslint@8.44.7)(@types/node@20.9.4)(@types/react-dom@18.2.17)(@types/react@18.2.38)(eslint@8.54.0)(globals@13.23.0)(typescript@5.3.2)
   stylelint:
     specifier: 15.11.0
     version: 15.11.0
@@ -1343,9 +1343,9 @@ packages:
       parse-gitignore: 2.0.0
     dev: true
 
-  /eslint-config-upleveled@7.3.1(@babel/core@7.21.4)(@types/eslint@8.44.7)(@types/node@20.9.4)(@types/react-dom@18.2.17)(@types/react@18.2.38)(eslint@8.54.0)(globals@13.23.0)(typescript@5.3.2):
-    resolution: {integrity: sha512-JOEquHogcg1ZIw21IDxc+EoZoQ2NNI//Kd2DTb76KI3dOQSLMjJL0tQQbsgxjWybu7JySI38pfYqe4hd0LRX+A==}
-    engines: {node: '>=18.0.0'}
+  /eslint-config-upleveled@7.3.2(@babel/core@7.21.4)(@types/eslint@8.44.7)(@types/node@20.9.4)(@types/react-dom@18.2.17)(@types/react@18.2.38)(eslint@8.54.0)(globals@13.23.0)(typescript@5.3.2):
+    resolution: {integrity: sha512-4CFAOm8QfHhuS3gwF/D1kV/WBHJI2WyJATFZkPZbcBJly1lnPOKWsBLe3YheecbfVOz0sEE0nfaWeQ4JOZHTFg==}
+    engines: {node: '>=20.9.0'}
     hasBin: true
     peerDependencies:
       '@types/eslint': ^8.44.7
@@ -1552,9 +1552,9 @@ packages:
       es-iterator-helpers: 1.0.15
       eslint: 8.54.0
       estraverse: 5.3.0
-      jsx-ast-utils: 3.3.3
+      jsx-ast-utils: 3.3.5
       minimatch: 3.1.2
-      object.entries: 1.1.6
+      object.entries: 1.1.7
       object.fromentries: 2.0.7
       object.hasown: 1.1.2
       object.values: 1.1.7
@@ -2351,14 +2351,6 @@ packages:
     hasBin: true
     dev: true
 
-  /jsx-ast-utils@3.3.3:
-    resolution: {integrity: sha512-fYQHZTZ8jSfmWZ0iyzfwiU4WDX4HpHbMCZ3gPlWYiCl3BoeOTsqKBqnTVfH2rYT7eP5c3sVbeSPHnnJOaTrWiw==}
-    engines: {node: '>=4.0'}
-    dependencies:
-      array-includes: 3.1.7
-      object.assign: 4.1.4
-    dev: true
-
   /jsx-ast-utils@3.3.5:
     resolution: {integrity: sha512-ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ==}
     engines: {node: '>=4.0'}
@@ -2569,15 +2561,6 @@ packages:
       define-properties: 1.2.1
       has-symbols: 1.0.3
       object-keys: 1.1.1
-    dev: true
-
-  /object.entries@1.1.6:
-    resolution: {integrity: sha512-leTPzo4Zvg3pmbQ3rDK69Rl8GQvIqMWubrkxONG9/ojtFE2rD9fjMKfSI5BxW3osRH1m6VdzmqK8oAY9aT4x5w==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      call-bind: 1.0.5
-      define-properties: 1.2.1
-      es-abstract: 1.22.2
     dev: true
 
   /object.entries@1.1.7:
