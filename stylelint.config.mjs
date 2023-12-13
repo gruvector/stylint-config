@@ -1,6 +1,6 @@
 /** @type { import('stylelint').Config } */
 const config = {
-  extends: ['stylelint-config-upleveled'],
+  extends: ['.'],
 };
 
 export default config;

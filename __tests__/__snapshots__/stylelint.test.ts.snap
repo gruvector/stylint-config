@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Errors correctly reported with Stylelint config 1`] = `""`;
+
+exports[`Errors correctly reported with Stylelint config 2`] = `
+"
+__tests__/index.module.scss
+  [2m1:1[22m   [31m[31m✖[39m  Unexpected unknown type selector "lol"         [2mselector-type-no-unknown[22m
+  [2m1:5[22m   [31m[31m✖[39m  Unexpected empty block                         [2mblock-no-empty[22m
+  [2m5:3[22m   [31m[31m✖[39m  Unexpected unknown property "backgound-color"  [2mproperty-no-unknown[22m
+  [2m7:3[22m   [31m[31m✖[39m  Unexpected duplicate "--custom-property"       [2mdeclaration-block-no-duplicate-custom-properties[22m
+ [2m16:9[22m   [31m[31m✖[39m  Unexpected unknown type selector "c"           [2mselector-type-no-unknown[22m
+ [2m16:13[22m  [31m[31m✖[39m  Unexpected unknown type selector "d"           [2mselector-type-no-unknown[22m
+ [2m16:15[22m  [31m[31m✖[39m  Unexpected unknown type selector "e"           [2mselector-type-no-unknown[22m
+
+7 problems ([31m7 errors[39m, [33m0 warnings[39m)
+"
+`;
