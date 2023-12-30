@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   postcss-styled-syntax:
-    specifier: 0.6.1
-    version: 0.6.1(postcss@8.4.32)
+    specifier: 0.6.2
+    version: 0.6.2(postcss@8.4.32)
   stylelint:
     specifier: ^16.1.0
     version: 16.1.0(typescript@5.3.3)
@@ -3310,8 +3310,8 @@ packages:
       util-deprecate: 1.0.2
     dev: false
 
-  /postcss-styled-syntax@0.6.1(postcss@8.4.32):
-    resolution: {integrity: sha512-Yz0eW3p9HQvRRGLF+UV7a1QGI/D/wcBeC86UiIkQgw/CIgytczoLxC9CRsPSvWd+7dXNqiReAlNe1SfE5Yf1kg==}
+  /postcss-styled-syntax@0.6.2(postcss@8.4.32):
+    resolution: {integrity: sha512-uJ9IuvbkuKGKkbWw3IoBaZA73eIIjSx8+X0Z9+hY4dez4TzeXOxa4my5cKmkUKWcCg8aOE/n2iuMnpKbZVDmsw==}
     engines: {node: '>=14.17'}
     peerDependencies:
       postcss: ^8.4.21
