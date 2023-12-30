@@ -26,7 +26,7 @@
     "test": "CI=true vitest"
   },
   "dependencies": {
-    "postcss-styled-syntax": "0.6.0",
+    "postcss-styled-syntax": "0.6.1",
     "stylelint-config-css-modules": "4.4.0",
     "stylelint-config-recommended": "14.0.0",
     "stylelint-config-recommended-scss": "14.0.0"
